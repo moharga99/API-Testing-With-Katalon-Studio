@@ -17,10 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject('POST Register Successful'))
+def response = WS.sendRequest(findTestObject('PUT - Update'))
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'id', '2')
+WS.verifyElementPropertyValue(response, 'name', 'morpheus')
 
-WS.verifyElementPropertyValue(response, 'token', 'QpwL5tke4Pnpja7X2')
+WS.verifyElementPropertyValue(response, 'job', 'zion resident')

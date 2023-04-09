@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>GET List Users</name>
+   <name>PUT - Update</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>37f0b7b7-27db-49fc-b026-6c63e8ea7d38</testCaseGuid>
+   <testCaseGuid>08b5d70b-a98e-45b5-8eca-b51e98633c1c</testCaseGuid>
 </TestCaseEntity>

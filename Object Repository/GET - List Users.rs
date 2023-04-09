@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>POST Register Successful</name>
+   <name>GET - List Users</name>
    <tag></tag>
-   <elementGuidId>7ad953a7-a214-4710-ad77-9e3ee9e850de</elementGuidId>
+   <elementGuidId>626c3e71-dcf6-463a-84d2-049fb4d579fa</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;janet.weaver@reqres.in\&quot;,\n    \&quot;password\&quot;: \&quot;pistol\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>c751f155-cd17-44f4-b2e2-fd425de6f6c1</webElementGuid>
-   </httpHeaderProperties>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <katalonVersion>8.5.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${LINK_API}api/register</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${LINK_API}api/users?page=1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

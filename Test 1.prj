@@ -6,7 +6,7 @@
    <UUID>9fae7f69-2def-4417-8bea-f566f38fd5bf</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\Apps\Katalon\Test 1\Test 1.prj</projectFileLocation>
+   <projectFileLocation>D:\Apps\Katalon\API Testing With Katalon Studio\Test 1.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -25,6 +25,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
-   <timeStampInProperties>false</timeStampInProperties>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>WEBSERVICE</type>
 </Project>
