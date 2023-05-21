@@ -15,28 +15,28 @@
       <guid>eeff60cc-a3ef-4b82-af30-359b870782e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/GET - List Users</testCaseId>
+      <testCaseId>Test Cases/GET List Users</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1f0a42e7-84d0-4c42-acd8-07249ebd73a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/GET - Single User</testCaseId>
+      <testCaseId>Test Cases/GET Single User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>15b191cf-2a69-43d9-a9cc-bd244503596c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PUT - Update</testCaseId>
+      <testCaseId>Test Cases/PUT Update</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ba6ac3a0-2cbb-4c28-bae0-aca49b6f7794</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/POST - Register Successful</testCaseId>
+      <testCaseId>Test Cases/POST Register Successful</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
