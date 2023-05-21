@@ -16,4 +16,4 @@ jobs:
       with:
           version: '7.5.5'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/All Request" -apiKey= 78fc32f2-50a4-4efe-816f-45dd20fc7e13 --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/All Request" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
