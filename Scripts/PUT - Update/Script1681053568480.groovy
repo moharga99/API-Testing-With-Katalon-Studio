@@ -17,10 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject('PUT - Update'))
+def response = WS.sendRequest(findTestObject('PutUpdateUser'))
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue(response, 'name', 'morpheus')
+WS.verifyElementPropertyValue(response, 'name', 'Mohamad Arga')
 
-WS.verifyElementPropertyValue(response, 'job', 'zion resident')
+WS.verifyElementPropertyValue(response, 'job', 'SDET')
+

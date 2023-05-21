@@ -17,10 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject('POST - Register Successful'))
+def response = WS.sendRequest(findTestObject('PostUserRegisterSuccessful'))
 
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(response, 201)
 
-WS.verifyElementPropertyValue(response, 'id', '2')
+WS.verifyElementPropertyValue(response, 'email', GlobalVariable.USERNAME)
 
-WS.verifyElementPropertyValue(response, 'token', 'QpwL5tke4Pnpja7X2')
+WS.verifyElementPropertyValue(response, 'password', GlobalVariable.PASSWORD)
+

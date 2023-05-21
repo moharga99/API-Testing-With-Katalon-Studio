@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET - List Users</name>
+   <name>GetListUsers</name>
    <tag></tag>
    <elementGuidId>626c3e71-dcf6-463a-84d2-049fb4d579fa</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,7 +15,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${LINK_API}api/users?page=1</restUrl>
+   <restUrl>${LINK_API}/users?page=1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

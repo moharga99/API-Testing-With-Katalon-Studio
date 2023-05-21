@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject('GET List Users', [('LINK_API') : GlobalVariable.LINK_API]))
+def response = WS.sendRequest(findTestObject('GetListUsers'))
 
 WS.verifyResponseStatusCode(response, 200)
 
 WS.verifyElementPropertyValue(response, 'page', '1')
+
+WS.verifyElementPropertyValue(response, 'total_pages', '2')
 
